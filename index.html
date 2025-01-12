@@ -14,58 +14,88 @@
     <nav>
         <ul>
             <li><a href="#vision">Vision</a></li>
-            <li><a href="#tasks">Tâches</a></li>
-            <li><a href="#mood">Humeur</a></li>
-            <li><a href="#progress">Objectifs</a></li>
-            <li><a href="#reset">Réinitialiser</a></li>
+            <li><a href="#calendrier">Calendrier</a></li>
+            <li><a href="#journal">Journal Annuel</a></li>
+            <li><a href="#ramadan">Ramadan</a></li>
+            <li><a href="#thematique">Pages Thématiques</a></li>
         </ul>
     </nav>
     <main>
-        <!-- Vision -->
+        <!-- Vision pour 2025 -->
         <section id="vision">
-            <h2>Vision pour 2025</h2>
+            <h2>Vision et Objectifs pour 2025</h2>
             <ul>
-                <li><strong>Santé :</strong> Prioriser ma santé physique et mentale.</li>
-                <li><strong>Finance :</strong> Respecter mon budget et épargner.</li>
-                <li><strong>Relations :</strong> Renforcer mes liens familiaux et amicaux.</li>
-                <li><strong>Voyages :</strong> Découvrir de nouvelles destinations.</li>
+                <li><strong>Santé et bien-être :</strong> Prioriser ma santé physique et mentale, développer des routines équilibrées.</li>
+                <li><strong>Finance et autonomie :</strong> Respecter mon budget tout en réalisant mes projets de voyage et d’investissement.</li>
+                <li><strong>Relations :</strong> Renforcer mes liens familiaux, cultiver des relations de qualité.</li>
+                <li><strong>Spiritualité :</strong> Approfondir ma foi, notamment pendant le Ramadan, et cultiver la gratitude.</li>
+                <li><strong>Voyages :</strong> Explorer le monde tout en respectant mon budget, avec des destinations variées et inspirantes.</li>
             </ul>
         </section>
 
-        <!-- Tracker des tâches -->
-        <section id="tasks">
-            <h2>Tracker des Tâches Quotidiennes</h2>
-            <ul>
-                <li><input type="checkbox" class="task-checkbox"> Méditation</li>
-                <li><input type="checkbox" class="task-checkbox"> 30 minutes de sport</li>
-                <li><input type="checkbox" class="task-checkbox"> Lire un chapitre d’un livre</li>
-            </ul>
-        </section>
-
-        <!-- Mood Tracker -->
-        <section id="mood">
-            <h2>Mood Tracker</h2>
-            <form>
-                <label><input type="radio" name="mood" class="mood-option" value="happy"> 😊 Heureux</label>
-                <label><input type="radio" name="mood" class="mood-option" value="neutral"> 😐 Neutre</label>
-                <label><input type="radio" name="mood" class="mood-option" value="sad"> 😔 Triste</label>
-            </form>
-        </section>
-
-        <!-- Objectifs mensuels -->
-        <section id="progress">
-            <h2>Suivi des Objectifs Mensuels</h2>
-            <div class="progress-container">
-                <div class="progress-bar">0%</div>
+        <!-- Calendrier Annuel -->
+        <section id="calendrier">
+            <h2>Calendrier Annuel</h2>
+            <div>
+                <h3>Janvier à Février : Renouveau et Préparation</h3>
+                <p>Objectifs : Planifier l’année, poser les bases de mes objectifs en santé, finances, et relations.</p>
+                <p>Focus : Nouvelle routine sportive, budget clair pour les projets à venir.</p>
             </div>
-            <button id="increase-progress">Augmenter Progression</button>
-            <button id="reset-progress">Réinitialiser Progression</button>
+            <div>
+                <h3>Mars : Ramadan</h3>
+                <p><strong>Période :</strong> 28 février - 29 mars.</p>
+                <p>Thème : Renouvellement spirituel et discipline personnelle.</p>
+            </div>
+            <div>
+                <h3>Avril à Mai : Premiers Voyages</h3>
+                <p>Voyage principal : Croisière sur le Danube ou Égypte (à détailler).</p>
+            </div>
+            <div>
+                <h3>Juillet à Août : Été en Grèce</h3>
+                <p>Voyage principal : Circuit dans les Cyclades. Destinations : Santorin, Paros, Mykonos, Naxos.</p>
+            </div>
+            <div>
+                <h3>Décembre : Noël en Alsace</h3>
+                <p>Voyage principal : Strasbourg et Colmar pour les marchés de Noël.</p>
+            </div>
         </section>
 
-        <!-- Réinitialisation -->
-        <section id="reset">
-            <h2>Réinitialiser Toutes les Données</h2>
-            <button id="reset-all">Réinitialiser</button>
+        <!-- Journal Annuel -->
+        <section id="journal">
+            <h2>Journal Annuel 2025</h2>
+            <h3>Introduction Mensuelle</h3>
+            <p>Objectifs santé, finances, relations, voyages, spiritualité.</p>
+            <textarea id="monthly-notes" placeholder="Notez vos objectifs mensuels ici..."></textarea>
+        </section>
+
+        <!-- Ramadan -->
+        <section id="ramadan">
+            <h2>Pages Spécifiques au Ramadan</h2>
+            <h3>Tracker des Prières</h3>
+            <ul>
+                <li>Subh <input type="checkbox" class="prayer-checkbox"></li>
+                <li>Duhr <input type="checkbox" class="prayer-checkbox"></li>
+                <li>Asr <input type="checkbox" class="prayer-checkbox"></li>
+                <li>Maghrib <input type="checkbox" class="prayer-checkbox"></li>
+                <li>Isha <input type="checkbox" class="prayer-checkbox"></li>
+            </ul>
+        </section>
+
+        <!-- Pages Thématiques -->
+        <section id="thematique">
+            <h2>Pages Thématiques</h2>
+            <div>
+                <h3>Santé et Sport</h3>
+                <p>Trackers d’entraînement, journal alimentaire.</p>
+            </div>
+            <div>
+                <h3>Finance</h3>
+                <p>Suivi des dépenses et objectifs d’épargne.</p>
+            </div>
+            <div>
+                <h3>Voyages</h3>
+                <p>Moodboards et checklist pour chaque destination.</p>
+            </div>
         </section>
     </main>
     <footer>
