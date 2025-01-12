@@ -3,7 +3,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
 }
@@ -18,7 +17,6 @@ header h1 {
 }
 header blockquote {
     font-style: italic;
-    margin-top: 10px;
 }
 
 /* Navigation */
@@ -37,10 +35,6 @@ nav ul li a {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
-    border-radius: 5px;
-}
-nav ul li a:hover {
-    background-color: #4caf50;
 }
 
 /* Sections */
@@ -49,35 +43,7 @@ section {
     padding: 15px;
     background: white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 section h2 {
-    margin-top: 0;
     color: #4caf50;
-}
-
-/* Progress Bar */
-.progress-container {
-    background: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 20px;
-    margin: 10px 0;
-}
-.progress-bar {
-    background: #4caf50;
-    color: white;
-    text-align: center;
-    line-height: 20px;
-    width: 0%;
-    transition: width 0.3s ease;
-}
-
-/* Mood Tracker */
-#mood form {
-    display: flex;
-    gap: 10px;
-}
-#mood label {
-    cursor: pointer;
 }
