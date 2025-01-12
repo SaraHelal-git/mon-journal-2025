@@ -13,44 +13,59 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#vision">Vision 2025</a></li>
-            <li><a href="#ramadan">Ramadan</a></li>
-            <li><a href="#voyages">Voyages</a></li>
-            <li><a href="#sante">Suivi Santé</a></li>
-            <li><a href="#finances">Suivi Financier</a></li>
-            <li><a href="#bilan-annuel">Bilan Annuel</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#tasks">Tâches</a></li>
+            <li><a href="#mood">Humeur</a></li>
+            <li><a href="#progress">Objectifs</a></li>
+            <li><a href="#reset">Réinitialiser</a></li>
         </ul>
     </nav>
     <main>
+        <!-- Vision -->
         <section id="vision">
-            <h2>Vision 2025</h2>
-            <p>Planifiez vos objectifs pour 2025 :</p>
+            <h2>Vision pour 2025</h2>
+            <ul>
+                <li><strong>Santé :</strong> Prioriser ma santé physique et mentale.</li>
+                <li><strong>Finance :</strong> Respecter mon budget et épargner.</li>
+                <li><strong>Relations :</strong> Renforcer mes liens familiaux et amicaux.</li>
+                <li><strong>Voyages :</strong> Découvrir de nouvelles destinations.</li>
+            </ul>
+        </section>
+
+        <!-- Tracker des tâches -->
+        <section id="tasks">
+            <h2>Tracker des Tâches Quotidiennes</h2>
+            <ul>
+                <li><input type="checkbox" class="task-checkbox"> Méditation</li>
+                <li><input type="checkbox" class="task-checkbox"> 30 minutes de sport</li>
+                <li><input type="checkbox" class="task-checkbox"> Lire un chapitre d’un livre</li>
+            </ul>
+        </section>
+
+        <!-- Mood Tracker -->
+        <section id="mood">
+            <h2>Mood Tracker</h2>
             <form>
-                <label>Santé : <input type="text" placeholder="Ex : Yoga quotidien"></label><br>
-                <label>Finance : <input type="text" placeholder="Ex : Épargner 20%"></label><br>
-                <label>Relations : <input type="text" placeholder="Ex : Appeler un proche"></label><br>
-                <label>Spiritualité : <input type="text" placeholder="Ex : Prière quotidienne"></label>
+                <label><input type="radio" name="mood" class="mood-option" value="happy"> 😊 Heureux</label>
+                <label><input type="radio" name="mood" class="mood-option" value="neutral"> 😐 Neutre</label>
+                <label><input type="radio" name="mood" class="mood-option" value="sad"> 😔 Triste</label>
             </form>
         </section>
-        <section id="ramadan">
-            <h2>Ramadan 2025</h2>
-            <p><strong>Période :</strong> Du 28 février au 29 mars 2025.</p>
-            <h3>Tracker des Prières</h3>
-            <ul>
-                <li>Subh <input type="checkbox"></li>
-                <li>Duhr <input type="checkbox"></li>
-                <li>Asr <input type="checkbox"></li>
-                <li>Maghrib <input type="checkbox"></li>
-                <li>Isha <input type="checkbox"></li>
-            </ul>
+
+        <!-- Objectifs mensuels -->
+        <section id="progress">
+            <h2>Suivi des Objectifs Mensuels</h2>
+            <div class="progress-container">
+                <div class="progress-bar">0%</div>
+            </div>
+            <button id="increase-progress">Augmenter Progression</button>
+            <button id="reset-progress">Réinitialiser Progression</button>
         </section>
-        <section id="voyages">
-            <h2>Planification des Voyages 2025</h2>
-            <p>Printemps : Croisière sur le Danube.</p>
-            <ul>
-                <li><strong>Dates :</strong> 24 mai - 9 juin</li>
-                <li><strong>Destinations :</strong> Vienne, Bratislava, Budapest, Prague</li>
-            </ul>
+
+        <!-- Réinitialisation -->
+        <section id="reset">
+            <h2>Réinitialiser Toutes les Données</h2>
+            <button id="reset-all">Réinitialiser</button>
         </section>
     </main>
     <footer>
